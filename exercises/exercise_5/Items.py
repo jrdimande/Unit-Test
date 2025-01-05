@@ -1,3 +1,4 @@
 def find_item(item, list):
-    if item in list:
-        return True
+    for element in list:
+        if item == element:
+            return True
